@@ -1,0 +1,18 @@
+=> dictonary in python
+
+it stores key and value pair 
+for eg 
+
+details={
+    "name":"jay",
+    "marks":100,
+    "school":"GLS",
+    "Grade":"B"
+}
+
+the methods are used in this are
+
+item()
+key()
+update()
+get()

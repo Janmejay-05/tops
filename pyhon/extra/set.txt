@@ -1,0 +1,23 @@
+=> set 
+
+it is a data type which is used to store non duplicat values 
+
+the syntax is
+
+s={1,2,3,4,4,5,5} 
+output={1,2,3,4,5}
+
+to create empty set 
+s=set()
+
+it will create an empty set 
+
+indexing is not there in set
+
+required methods are used in this set are
+
+add()
+remove()
+pop()
+intersection()
+union()

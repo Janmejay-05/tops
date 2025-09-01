@@ -1,0 +1,46 @@
+=> list 
+
+l1=["name","jay","age",19]
+
+print(l1[1:6])
+list has the same slice method and indexing like string 
+
+the method require are 
+
+sort()
+reverse()
+append()
+insert()
+pop()
+remove()
+
+=> touple
+
+it will store static value it is immutable
+
+the syntex is  
+
+tu=(1,2,3,4)
+
+if you want to store single value the the syntax is 
+tu=(1,)
+
+to check if the value is in the tuple or not 
+use "in" keyword 
+
+for eg 
+
+tuple=(1,2,3,4,5)
+
+if(3 in tuple):
+    prit("yes the no 3 is there in tuple")
+
+
+methods require in this are
+
+count()
+index()
+
+
+
+the practical is in the list.py and tuple.py

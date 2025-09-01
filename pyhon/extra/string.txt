@@ -1,0 +1,26 @@
+-> slice method 
+
+name="janmejay"
+
+index will be in positive and negative 
+for eg
+j a n m e j a y
++
+0 1 2 3 4 5 6 7
+
+-
+8 7 6 5 4 3 2 1
+
+print(name[1:5]) will take index 1 to 4 
+print(name[:5]) will take 0 as default it means [0:5]
+print(name[1:]) will take length-1 as default it means [1:7]
+
+
+-> new line 
+print("jay is a good boy \n but not a good coder) back slash and n will give to a new line 
+
+
+
+
+other methods are in the file name "string.py"
+
