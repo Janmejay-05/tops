@@ -11,9 +11,47 @@
 # print(l1)
 
 
-l1=[(1,"a"),(2,"b"),(3,"c")]
 
-l1=list(zip(*l1))
-print(l1)
+
+
+
+
+
+l1=[(1,"a","janmejay"),(2,"b","ayush"),(3,"c","hemang")]
+
+
+len1=len(l1[0])
+bool=True
+
+for i in range(len(l1)):
+    if len1!=len(l1[i]):
+        bool=False
+
+print(bool)
+
+j=0
+l2=[]
+while j<len1:
+    if bool:
+        temp=[]
+        for i in range(len(l1)):
+            temp.append(l1[i][j])
+        # print("temp ",temp)
+        l2.append(temp)
+        
+        j=j+1
+
+print("l2 ",l2)
+
+
+
+
+
+
+# l1=list(zip(*l1))
+# for i in range(0,len(l1)):
+#     l1[i]=list(l1[i])
       
 
+# for i in l1:
+#     print(i)
